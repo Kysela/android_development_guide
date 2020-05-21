@@ -1,0 +1,38 @@
+Ubuntu
+======
+
+Ubuntu version recommendations
+------------------------------
+It is recommended for you to follow the list below to install the correct version of Ubuntu:
+Android version|Ubuntu Version
+---------------|--------------
+Android 1.5 - 2.2.x|Ubuntu 10.04 (Lucid)
+Android 2.3.x - 5.x|Ubuntu 12.04 (Precise)
+Android 6.0 – latest|Ubuntu 14.04 (Trusty)
+
+Update package listings
+-----------------------
+Run `sudo apt-get update` and `sudo apt-get upgrade` before installing any packages below.
+
+Installing JDK (Java Development Kit)
+-------------------------------------
+Different Android versions requires different JDK, please follow the list below:
+Android version|JDK Version
+---------------|-----------
+Android 1.5 - 2.2|OpenJDK 5
+Android 2.3.x - 4.4.x|OpenJDK 6
+Android 5.x - 6.x |OpenJDK 7
+Android 7.0 - Android 8.0|OpenJDK 8
+
+To install, run this command in the terminal:
+
+`sudo apt-get openjdk-*-jdk`
+
+Replace * with the version you want to install.
+
+Install other necessary tools
+----------------------------
+Ubuntu 14.04:
+
+`sudo apt-get install git-core gnupg ccache lzop flex bison gperf build-essential zip curl zlib1g-dev zlib1g-dev:i386 libc6-dev lib32ncurses5 lib32z1 lib32bz2-1.0 lib32ncurses5-dev x11proto-core-dev libx11-dev:i386 libreadline6-dev:i386 lib32z-dev libgl1-mesa-dev g++-multilib mingw32 tofrodos python-markdown libxml2-utils xsltproc readline-common libreadline6-dev libreadline6 lib32readline-gplv2-dev libncurses5-dev lib32readline5 lib32readline6 libreadline-dev libreadline6-dev:i386 libreadline6:i386 bzip2 libbz2-dev libbz2-1.0 libghc-bzlib-dev lib32bz2-dev libsdl1.2-dev libesd0-dev squashfs-tools pngcrush schedtool libwxgtk2.8-dev python`
+
