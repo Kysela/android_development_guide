@@ -12,6 +12,8 @@ Android 5.0 - Android 6.0.1|Ubuntu 14.04 (Trusty)
 Android 7.0 - Android 8.1|Ubuntu 16.04 (Xenial) to Ubuntu 20.04 (Focal)
 Android 9 - Android 11|Ubuntu 16.04 (Xenial) or newer
 
+You can get the required version of Ubuntu [here](http://old-releases.ubuntu.com/releases/).
+
 Update package listings
 -----------------------
 Run `sudo apt-get update && sudo apt-get upgrade` before installing any packages below.
