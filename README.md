@@ -6,4 +6,4 @@ This is currently very incomplete.
 
 ## Navigatior
 
-[01. Establish build environment](https://github.com/TipzTeam/android_development_guide/tree/master/01.%20Establish%20build%20environment)
+[01. Establish build environment](01. Establish build environment)
