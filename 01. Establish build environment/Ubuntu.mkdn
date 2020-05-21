@@ -20,7 +20,7 @@ Run `sudo apt-get update && sudo apt-get upgrade` before installing any packages
 
 Installing JDK (Java Development Kit)
 -------------------------------------
-P.S. Since AOSP 9, the OpenJDK 9 is bundled into the prebuilt binary, not depended on OS provided.
+P.S. Since AOSP 9, OpenJDK is bundled into the repo, not depended on what you have installed.
 
 Different Android versions requires different JDK, please follow the list below:
 Android version|JDK Version
