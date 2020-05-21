@@ -7,17 +7,21 @@ It is recommended for you to follow the list below to install the correct versio
 Android version|Ubuntu Version
 ---------------|--------------
 Android 1.5 - 2.2.x|Ubuntu 10.04 (Lucid)
-Android 2.3.x - 5.x|Ubuntu 12.04 (Precise)
-Android 6.0 – latest|Ubuntu 14.04 (Trusty)
+Android 2.3.x - 4.4.4|Ubuntu 12.04 (Precise)
+Android 5.0 - Android 6.0.1|Ubuntu 14.04 (Trusty)
+Android 7.0 - Android 8.1|Ubuntu 16.04 (Xenial) to Ubuntu 20.04 (Focal)
+Android 9 - Android 11|Ubuntu 16.04 (Xenial) or newer
 
 You can get the required version of Ubuntu [here](http://old-releases.ubuntu.com/releases/).
 
 Update package listings
 -----------------------
-Run `sudo apt-get update` and `sudo apt-get upgrade` before installing any packages below.
+Run `sudo apt-get update && sudo apt-get upgrade` before installing any packages below.
 
 Installing JDK (Java Development Kit)
 -------------------------------------
+P.S. Since AOSP 9, the OpenJDK 9 is bundled into the prebuilt binary, not depended on OS provided.
+
 Different Android versions requires different JDK, please follow the list below:
 Android version|JDK Version
 ---------------|-----------
@@ -36,5 +40,5 @@ Install other necessary tools
 ----------------------------
 Ubuntu 14.04:
 
-`sudo apt-get install git-core gnupg ccache lzop flex bison gperf build-essential zip curl zlib1g-dev zlib1g-dev:i386 libc6-dev lib32ncurses5 lib32z1 lib32bz2-1.0 lib32ncurses5-dev x11proto-core-dev libx11-dev:i386 libreadline6-dev:i386 lib32z-dev libgl1-mesa-dev g++-multilib mingw32 tofrodos python-markdown libxml2-utils xsltproc readline-common libreadline6-dev libreadline6 lib32readline-gplv2-dev libncurses5-dev lib32readline5 lib32readline6 libreadline-dev libreadline6-dev:i386 libreadline6:i386 bzip2 libbz2-dev libbz2-1.0 libghc-bzlib-dev lib32bz2-dev libsdl1.2-dev libesd0-dev squashfs-tools pngcrush schedtool libwxgtk2.8-dev python phablet-tools`
+`sudo apt-get install git-core gnupg ccache lzop flex bison gperf build-essential zip curl zlib1g-dev zlib1g-dev:i386 libc6-dev lib32ncurses5 lib32z1 lib32bz2-1.0 lib32ncurses5-dev x11proto-core-dev libx11-dev:i386 libreadline6-dev:i386 lib32z-dev libgl1-mesa-dev g++-multilib mingw32 tofrodos python-markdown libxml2-utils xsltproc readline-common libreadline6-dev libreadline6 lib32readline-gplv2-dev libncurses5-dev lib32readline5 lib32readline6 libreadline-dev libreadline6-dev:i386 libreadline6:i386 bzip2 libbz2-dev libbz2-1.0 libghc-bzlib-dev lib32bz2-dev libsdl1.2-dev libesd0-dev squashfs-tools pngcrush schedtool libwxgtk2.8-dev python`
 
