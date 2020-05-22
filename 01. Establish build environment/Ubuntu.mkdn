@@ -8,8 +8,9 @@ Android version|Ubuntu Version
 ---------------|--------------
 Android 1.5 - 2.2|Ubuntu 10.04 (Lucid)
 Android 2.3.x - 4.4.4|Ubuntu 12.04 (Precise)
-Android 5.x - Android 6.x|Ubuntu 14.04 (Trusty)
-Android 7.x - Android 8.x|Ubuntu 16.04 (Xenial) to Ubuntu 20.04 (Focal)
+Android 5.x - 6.x|Ubuntu 14.04 (Trusty)
+Android 7.x - 8.x|Ubuntu 16.04 (Xenial) or newer
+
 Android 9 - Android 11|Ubuntu 16.04 (Xenial) or newer
 
 You can get the required version of Ubuntu [here](http://old-releases.ubuntu.com/releases/).
@@ -34,7 +35,7 @@ Android version|JDK Version
 Android 1.5 - 2.2|OpenJDK 5
 Android 2.3.x - 4.4.x|OpenJDK 6
 Android 5.x - 6.x |OpenJDK 7
-Android 7.x - Android 8.x|OpenJDK 8
+Android 7.x - 8.x|OpenJDK 8
 
 To install, run this command in the terminal:
 
