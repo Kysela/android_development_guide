@@ -63,7 +63,7 @@ Next, open the bashrc file included in the repo tool:
 
 `sudo nano ~/.bashrc`
 
-To set the right path for your local bin folder, paste the following code to a new line at the very bottom of the bashrc file, and then save the file using Ctrl+X: 
+To set the right path for your local bin folder, paste the following code to a new line at the very bottom of the bashrc file, and then save the file using `Ctrl+X`: 
 
 `export PATH=~/bin:$PATH`
 
