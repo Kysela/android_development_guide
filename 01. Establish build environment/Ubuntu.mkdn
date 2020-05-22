@@ -57,7 +57,7 @@ Replace * with the version you want to install.
 
 Install other necessary tools
 -----------------------------
-To be able to build the images that you will later flash on your device, you need to install a set of software packages and libraries which give you the tools to compile source code into binary files that can run on your device.
+To be able to build AOSP, you need to install a set of software packages and libraries which give you the tools to compile source code into binary files that can run on your device.
 
 Run this command in the terminal:
 
