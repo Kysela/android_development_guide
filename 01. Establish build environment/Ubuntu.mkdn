@@ -4,10 +4,15 @@ Ubuntu
 Navigator
 ---------
 [Ubuntu version recommendations](#ubuntu-version-recommendations)
+
 [Update package listings](#update-package-listings)
+
 [Installing JDK (Java Development Kit)](#installing-jdk-java-development-kit)
+
 [Install other necessary tools](#install-other-necessary-tools)
+
 [Download Repo and set PATH](#download-repo-and-set-path)
+
 
 Ubuntu version recommendations
 ------------------------------
