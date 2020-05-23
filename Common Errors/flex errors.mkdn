@@ -11,3 +11,7 @@ Full error:
 Fix:
 
 > cd prebuilts/misc/linux-x86/flex && rm flex-2.5.39 && tar zxf flex-2.5.39.tar.gz && cd flex-2.5.39 && ./configure && make && mv flex ../ && cd ../ && rm -rf flex-2.5.39 && mv flex flex-2.5.39
+
+Reason:
+
+flex is too old for newer distributions.
