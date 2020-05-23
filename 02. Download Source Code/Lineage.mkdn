@@ -1,6 +1,14 @@
 Lineage
 =======
 
+Navigator
+---------
+[Creating a new directory](#creating-a-new-directory)
+
+[Initialize Repo](#initialize-repo)
+
+[Download the source code](#download-the-source-code)
+
 Creating a new directory
 ------------------------
 Create a new directory for downloading source code
