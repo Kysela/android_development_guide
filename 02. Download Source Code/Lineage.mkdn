@@ -1,0 +1,35 @@
+Lineage
+=======
+
+Creating a new directory
+------------------------
+Create a new directory for downloading source code
+
+`mkdir lineage`
+
+Initialize Repo
+---------------
+Run this command in your terminal:
+
+`repo init -u https://github.com/LineageOS/android.git -b *`
+
+Replace * with the branch you want to download. If you don't know the branch you want to download, check [here](https://github.com/LineageOS/android/branches).
+
+Download the source code
+------------------------
+Run this command in your terminal:
+
+`repo sync`
+
+You can also use different arguments to speed up the sync:
+
+Argument|Description
+--------|-----------
+-f|Proceed with syncing other projects even if a project fails to sync.
+-j`threadcount`|Split the sync across threads for faster completion. Make sure not to overwhelm your machine by leaving some CPU reserved for other tasks. To see the number of available CPUs, first run: `nproc --all`
+-v|Show all sync output
+--force-sync|Overwrite an existing git directory if it needs to point to a different object directory.
+-q|Only show errors
+--optimized-fetch|Only fetch projects fixed to sha1 if revision does not exist locally (Not recommeneded)
+
+For more arguments, run `repo sync help`
