@@ -2,3 +2,5 @@ Collection 1
 ============
 
 > find: ‘dummy’: No such file or directory
+
+> warning: unknown warning option '-Wno-unused-local-typedef' [-Wunknown-warning-option]
