@@ -1,0 +1,13 @@
+flex errors
+===========
+
+flex-2.5.39: loadlocale.c:130
+-----------
+
+Full error:
+
+> flex-2.5.39: loadlocale.c:130: _nl_intern_locale_data: Assertion `cnt < (sizeof (_nl_value_type_LC_TIME) / sizeof (_nl_value_type_LC_TIME[0]))' failed.
+
+Fix:
+
+> cd prebuilts/misc/linux-x86/flex && rm flex-2.5.39 && tar zxf flex-2.5.39.tar.gz && cd flex-2.5.39 && ./configure && make && mv flex ../ && cd ../ && rm -rf flex-2.5.39 && mv flex flex-2.5.39
