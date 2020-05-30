@@ -9,38 +9,7 @@ Creating roomservice.xml
 ------------------------
 Here's a roomservice.xml:
 
-<p>
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest> 
-
-    <remote name="gh" fetch="git://github.com/" />
-
-    <project name="CyanogenMod/android_device_oneplus_bacon" path="device/oneplus/bacon" remote="gh" />
-    <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="gh" />
-    <project name="CyanogenMod/android_device_oppo_msm8974-common" path="device/oppo/msm8974-common" remote="gh" />
-    <project name="CyanogenMod/android_device_oppo_common" path="device/oppo/common" remote="gh" revision="cm-12.0" />
-    <project name="CyanogenMod/android_kernel_oneplus_msm8974" path="kernel/oneplus/msm8974" remote="gh" />
-    <project name="TheMuppets/proprietary_vendor_oppo" path="vendor/oppo" remote="gh" />
-    <project name="TheMuppets/proprietary_vendor_oneplus" path="vendor/oneplus" remote="gh" />
-    <project name="CyanogenMod/android_frameworks_opt_connectivity" path="frameworks/opt/connectivity" remote="gh" revision="cm-11.0" />
-
-    <remove-project name="CyanogenMod/android_vendor_cm" />
-    <remove-project name="CyanogenMod/android_build" />
-    <remove-project name="CyanogenMod/android_art" />
-    <remove-project name="CyanogenMod/android_frameworks_av" />
-    <remove-project name="CyanogenMod/android_frameworks_base" />
-    <remove-project name="CyanogenMod/android_external_sqlite" />
-    <remove-project name="CyanogenMod/android_external_bluetooth_bluedroid" />
-
-    <project path="build" name="jgcaap/android_build" remote="gh" revision="new5" />
-    <project path="art" name="jgcaap/android_art" remote="gh" revision="new"  />
-    <project path="external/bluetooth/bluedroid" name="jgcaap/android_external_bluetooth_bluedroid" remote="github" revision="new" />
-    <project path="external/sqlite" name="jgcaap/SQL" remote="gh" revision="new" />
-    <project path="frameworks/av" name="jgcaap/android_frameworks_av" remote="gh" revision="new" />
-    <project path="frameworks/base" name="jgcaap/android_frameworks_base" remote="gh" revision="new5" />
-    <project path="vendor/cm" name="jgcaap/CM_Vendor" remote="gh" revision="new" />
-</manifest>
-</p>
+<iframe src='https://raw.githubusercontent.com/TipzTeam/android_development_guide/master/Main%20compile%20guides/Source%20code%20compile/03.%20Add%20device%20source%20code/examplecustom.xml' scrolling='no' frameborder='0'></iframe>
 
 roomservice.xml starts with `<?xml version="1.0" encoding="UTF-8"?>` like any other xml files.
 
