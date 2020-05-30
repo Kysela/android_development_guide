@@ -9,14 +9,12 @@ Creating roomservice.xml
 ------------------------
 Here's a roomservice.xml:
 
-`
+<!--
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest> 
- 
-<!-- Remotes -->
+
     <remote name="gh" fetch="git://github.com/" />
 
-<!-- New Repo Files -->
     <project name="CyanogenMod/android_device_oneplus_bacon" path="device/oneplus/bacon" remote="gh" />
     <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="gh" />
     <project name="CyanogenMod/android_device_oppo_msm8974-common" path="device/oppo/msm8974-common" remote="gh" />
@@ -26,7 +24,6 @@ Here's a roomservice.xml:
     <project name="TheMuppets/proprietary_vendor_oneplus" path="vendor/oneplus" remote="gh" />
     <project name="CyanogenMod/android_frameworks_opt_connectivity" path="frameworks/opt/connectivity" remote="gh" revision="cm-11.0" />
 
-<!-- Repo Removes -->
     <remove-project name="CyanogenMod/android_vendor_cm" />
     <remove-project name="CyanogenMod/android_build" />
     <remove-project name="CyanogenMod/android_art" />
@@ -35,7 +32,6 @@ Here's a roomservice.xml:
     <remove-project name="CyanogenMod/android_external_sqlite" />
     <remove-project name="CyanogenMod/android_external_bluetooth_bluedroid" />
 
-<!-- Repo Replacements -->
     <project path="build" name="jgcaap/android_build" remote="gh" revision="new5" />
     <project path="art" name="jgcaap/android_art" remote="gh" revision="new"  />
     <project path="external/bluetooth/bluedroid" name="jgcaap/android_external_bluetooth_bluedroid" remote="github" revision="new" />
@@ -44,7 +40,7 @@ Here's a roomservice.xml:
     <project path="frameworks/base" name="jgcaap/android_frameworks_base" remote="gh" revision="new5" />
     <project path="vendor/cm" name="jgcaap/CM_Vendor" remote="gh" revision="new" />
 </manifest>
-`
+-->
 
 roomservice.xml starts with `<?xml version="1.0" encoding="UTF-8"?>` like any other xml files.
 
