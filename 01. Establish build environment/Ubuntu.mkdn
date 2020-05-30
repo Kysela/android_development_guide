@@ -9,6 +9,8 @@ Navigator
 
 [Installing JDK (Java Development Kit)](#installing-jdk-java-development-kit)
 
+[Making sure OpenJDK are installed correctly](#making-sure-openjdk-are-installed-correctly)
+
 [Install other necessary tools](#install-other-necessary-tools)
 
 [Download Repo and set PATH](#download-repo-and-set-path)
