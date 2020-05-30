@@ -6,6 +6,8 @@ This is currently very incomplete.
 
 ## Navigatior
 
-[01. Establish build environment](01.%20Establish%20build%20environment)
+[ROM compile guide](ROM%20compile%20guide)
 
-[02. Download Source Code](02.%20Download%20Source%20Code)
+[Common warnings](Common%20warnings)
+
+[Common errors](Common%20errors)
