@@ -52,23 +52,26 @@ Than `<manifest>` is required to make it a manifest file.
 
 After that, it is all `<remote>`, than there will be arguments, here's a list of common arguments:
 
-|Argument|Usage|
-|name|Remote name|
-|fetch|Git server|
-|review|Review server|
-|revision|Branches or revision|
+Argument|Usage
+--------|-----
+name|Remote name
+fetch|Git server
+review|Review server
+revision|Branches or revision
 
 Than, it is all `<project>`, than there will be arguments, here's a list of common arguments:
 
-|Argument|Usage|
-|name|Project name|
-|path|Sync to path|
-|remote|Use remote|
+Argument|Usage
+--------|-----
+name|Project name
+path|Sync to path
+remote|Use remote
 
 Some devices need repo replacements, so we have to first remove them, use `<remove-project>`:
 
-|Argument|Usage|
-|name|Project name|
+Argument|Usage
+--------|-----
+name|Project name
 
 You can than use `<project>` to sync the replacements. Than end the roomservice with `</manifest>`.
 
