@@ -9,7 +9,7 @@ Creating roomservice.xml
 ------------------------
 Here's a roomservice.xml:
 
-<!--
+<p>
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest> 
 
@@ -40,7 +40,7 @@ Here's a roomservice.xml:
     <project path="frameworks/base" name="jgcaap/android_frameworks_base" remote="gh" revision="new5" />
     <project path="vendor/cm" name="jgcaap/CM_Vendor" remote="gh" revision="new" />
 </manifest>
--->
+</p>
 
 roomservice.xml starts with `<?xml version="1.0" encoding="UTF-8"?>` like any other xml files.
 
