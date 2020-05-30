@@ -1,4 +1,0 @@
-Navigator
----------
-
-[Lineage](lineage.mkdn)
