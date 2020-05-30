@@ -9,7 +9,7 @@ Creating roomservice.xml
 ------------------------
 Here's a roomservice.xml:
 
-<iframe src='https://raw.githubusercontent.com/TipzTeam/android_development_guide/master/Main%20compile%20guides/Source%20code%20compile/03.%20Add%20device%20source%20code/examplecustom.xml' scrolling='no' frameborder='0'></iframe>
+[Example here](https://raw.githubusercontent.com/TipzTeam/android_development_guide/master/Main%20compile%20guides/Source%20code%20compile/03.%20Add%20device%20source%20code/examplecustom.xml)
 
 roomservice.xml starts with `<?xml version="1.0" encoding="UTF-8"?>` like any other xml files.
 
