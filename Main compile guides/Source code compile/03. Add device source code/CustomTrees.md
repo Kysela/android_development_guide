@@ -3,7 +3,9 @@ Custom Trees
 
 Navigator
 ---------
-[Creating roomservice.xml](#creating-roomservice-xml)
+[Creating roomservice.xml](#creating-roomservicexml)
+
+[Resync time](#resync-time)
 
 Creating roomservice.xml
 ------------------------
