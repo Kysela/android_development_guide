@@ -1,0 +1,23 @@
+libbluetooth_jni errors
+===========
+
+packages/apps/Bluetooth/Android.mk: error: "Bluetooth (APPS android-arm) missing libbluetooth_jni (SHARED_LIBRARIES android-arm)" 
+-----------
+
+Full error:
+
+> packages/apps/Bluetooth/Android.mk: error: "Bluetooth (APPS android-arm) missing libbluetooth_jni (SHARED_LIBRARIES android-arm)" 
+Available variants:
+  libbluetooth_jni (SHARED_LIBRARIES android-arm64)
+
+Fix:
+
+Go to <rom_source>/packages/apps/Bluetooth/jni
+Open Android.bp
+
+Find this: 
+> cc_library_shared {
+>    name: "libbluetooth_jni",
+>    compile_multilib: "first", 
+    
+Replace "first" with "both"
