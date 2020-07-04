@@ -19,7 +19,7 @@ Initialize Repo
 ---------------
 Run this command in your terminal:
 
-`repo init -u https://github.com/LineageOS/android.git -b *`
+`repo init -u https://github.com/LineageOS/android.git -b * --depth=1`
 
 Replace * with the branch you want to download. If you don't know the branch you want to download, check [here](https://github.com/LineageOS/android/branches).
 
@@ -38,6 +38,7 @@ Argument|Description
 -v|Show all sync output
 --force-sync|Overwrite an existing git directory if it needs to point to a different object directory.
 -q|Only show errors
+--depth=1|Only downloaded the lasest commit (faster and saving your time and network data)
 --optimized-fetch|Only fetch projects fixed to sha1 if revision does not exist locally (Not recommeneded)
 
 For more arguments, run `repo sync help`
