@@ -17,6 +17,9 @@ Reason:
 flex is too old for newer distributions.
 
 Alternative method :
+
 For Marshmallow/Nougat (cm-13.0/cm-14.1/los-14.1)
-Before start compiling job, add the thing:
+
+Before starting compilation, run the following:
+
 > export LC_ALL=C
